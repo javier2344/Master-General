@@ -151,7 +151,7 @@ public class EjamploCal extends javax.swing.JFrame {
        Double r = Dato1 + Dato2;
        txtDato1.setText(r.toString());
       
-       Suma.Suma(Dato1, Dato2);
+
 
 
 
