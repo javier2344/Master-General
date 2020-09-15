@@ -30,38 +30,38 @@ public class TablaOperaciones extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel4 = new javax.swing.JPanel();
-        txtLab1 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        txtlab1 = new javax.swing.JLabel();
+        txtparcial1 = new javax.swing.JLabel();
         btnPrimerperiodo = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         txtParcial1 = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
         txtResultadosPeriodo1 = new javax.swing.JTextField();
+        txtResultado1 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        txtlab2 = new javax.swing.JLabel();
+        txtparcial2 = new javax.swing.JLabel();
+        txtResultados2 = new javax.swing.JLabel();
         txtLab2 = new javax.swing.JTextField();
         txtParcial2 = new javax.swing.JTextField();
         txtResultadosperiodo2 = new javax.swing.JTextField();
         btnSegundoperiodo = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        txtlab3 = new javax.swing.JLabel();
+        txtparcial3 = new javax.swing.JLabel();
         txtLab3 = new javax.swing.JTextField();
         txtParcial3 = new javax.swing.JTextField();
-        jLabel10 = new javax.swing.JLabel();
+        txtResultado3 = new javax.swing.JLabel();
         txtResultadosperiodo3 = new javax.swing.JTextField();
         btnTercerperiodo = new javax.swing.JButton();
         btnResultadodelosTresPeriodos = new javax.swing.JButton();
-        jLabel11 = new javax.swing.JLabel();
+        txtResultadogeneral = new javax.swing.JLabel();
         txtResultadosdelos3peridos = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        txtLab1.setText("Lab 1");
+        txtlab1.setText("Lab 1");
 
-        jLabel4.setText("Parcial 1");
+        txtparcial1.setText("Parcial 1");
 
         btnPrimerperiodo.setText("Resultados");
         btnPrimerperiodo.addActionListener(new java.awt.event.ActionListener() {
@@ -82,57 +82,57 @@ public class TablaOperaciones extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Resultados periodo 1");
-
         txtResultadosPeriodo1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtResultadosPeriodo1ActionPerformed(evt);
             }
         });
 
+        txtResultado1.setText("Resultados periodo 1");
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(74, Short.MAX_VALUE)
-                .addComponent(txtLab1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(txtlab1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(47, 47, 47)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnPrimerperiodo)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtParcial1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(44, 44, 44)
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtResultadosPeriodo1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(78, 78, 78))
+                .addComponent(txtparcial1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtParcial1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(txtResultado1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtResultadosPeriodo1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(178, 178, 178))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(261, 261, 261)
+                .addComponent(btnPrimerperiodo)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(31, 31, 31)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(txtResultadosPeriodo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtParcial1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4)
+                    .addComponent(txtparcial1)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtLab1))
-                .addGap(18, 18, 18)
-                .addComponent(btnPrimerperiodo)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(txtlab1)
+                    .addComponent(txtResultado1)
+                    .addComponent(txtResultadosPeriodo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                .addComponent(btnPrimerperiodo))
         );
 
-        jLabel2.setText("Lab 2");
+        txtlab2.setText("Lab 2");
 
-        jLabel5.setText("Parcial 2");
+        txtparcial2.setText("Parcial 2");
 
-        jLabel6.setText("Resultados Periodo  2");
+        txtResultados2.setText("Resultados Periodo  2");
 
         txtResultadosperiodo2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,17 +153,17 @@ public class TablaOperaciones extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(80, 80, 80)
-                .addComponent(jLabel2)
+                .addComponent(txtlab2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtLab2, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel5)
+                .addComponent(txtparcial2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addComponent(txtParcial2, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jLabel6)
+                        .addComponent(txtResultados2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtResultadosperiodo2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(btnSegundoperiodo))
@@ -174,9 +174,9 @@ public class TablaOperaciones extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap(44, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel6)
+                    .addComponent(txtlab2)
+                    .addComponent(txtparcial2)
+                    .addComponent(txtResultados2)
                     .addComponent(txtLab2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtParcial2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtResultadosperiodo2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -184,9 +184,9 @@ public class TablaOperaciones extends javax.swing.JFrame {
                 .addComponent(btnSegundoperiodo))
         );
 
-        jLabel7.setText("Lab 3");
+        txtlab3.setText("Lab 3");
 
-        jLabel8.setText("Parcial 3");
+        txtparcial3.setText("Parcial 3");
 
         txtParcial3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,7 +194,7 @@ public class TablaOperaciones extends javax.swing.JFrame {
             }
         });
 
-        jLabel10.setText("Resultados periodo 3");
+        txtResultado3.setText("Resultados periodo 3");
 
         txtResultadosperiodo3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,10 +203,20 @@ public class TablaOperaciones extends javax.swing.JFrame {
         });
 
         btnTercerperiodo.setText("Resultado");
+        btnTercerperiodo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTercerperiodoActionPerformed(evt);
+            }
+        });
 
         btnResultadodelosTresPeriodos.setText("Resultados");
+        btnResultadodelosTresPeriodos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnResultadodelosTresPeriodosActionPerformed(evt);
+            }
+        });
 
-        jLabel11.setText("Resultados de los 3 periodos ");
+        txtResultadogeneral.setText("Resultados de los 3 periodos ");
 
         txtResultadosdelos3peridos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,8 +231,8 @@ public class TablaOperaciones extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(47, 47, 47)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel7))
+                    .addComponent(txtparcial3)
+                    .addComponent(txtlab3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnTercerperiodo, javax.swing.GroupLayout.DEFAULT_SIZE, 106, Short.MAX_VALUE)
@@ -233,10 +243,10 @@ public class TablaOperaciones extends javax.swing.JFrame {
                         .addGap(56, 56, 56)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtResultadosperiodo3)
-                            .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(txtResultado3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtResultadogeneral, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtResultadosdelos3peridos, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(31, 31, 31))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
@@ -249,10 +259,10 @@ public class TablaOperaciones extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(22, 22, 22)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
+                    .addComponent(txtlab3)
                     .addComponent(txtLab3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel11))
+                    .addComponent(txtResultado3)
+                    .addComponent(txtResultadogeneral))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtResultadosperiodo3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -261,11 +271,11 @@ public class TablaOperaciones extends javax.swing.JFrame {
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGap(1, 1, 1)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel8)
+                            .addComponent(txtparcial3)
                             .addComponent(txtParcial3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                         .addComponent(btnResultadodelosTresPeriodos)
                         .addGap(8, 8, 8)))
                 .addComponent(btnTercerperiodo)
@@ -302,12 +312,12 @@ public class TablaOperaciones extends javax.swing.JFrame {
     private void btnPrimerperiodoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrimerperiodoActionPerformed
         // TODO add your handling code here:
         clsDominio Primerper1 = new clsDominio();
-        Double Dato1 = Double.parseDouble(txtLab1.getText());
-        Double Dato2 = Double.parseDouble(txtParcial1.getText());
+        Double Dato1 = Double.parseDouble(txtlab1.getText());
+        Double Dato2 = Double.parseDouble(txtparcial1.getText());
 
         Double res = Primerper1.PrimerPar1(Dato1, Dato2);
 
-        txtResultadosPeriodo1.setText(res.toString());
+        txtResultado1.setText(res.toString());
     }//GEN-LAST:event_btnPrimerperiodoActionPerformed
 
     private void txtParcial1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtParcial1ActionPerformed
@@ -320,6 +330,15 @@ public class TablaOperaciones extends javax.swing.JFrame {
 
     private void btnSegundoperiodoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSegundoperiodoActionPerformed
         // TODO add your handling code here:
+        clsDominio Segundoperiodo =new clsDominio();
+        Double Dato1=Double.parseDouble(txtlab3.getText());
+        Double Dato2=Double.parseDouble(txtparcial3.getText());
+        
+        Double res=Segundoperiodo.SegundoPer(Dato1, Dato2);
+        
+        
+        txtResultado3.setText(res.toString());
+
     }//GEN-LAST:event_btnSegundoperiodoActionPerformed
 
     private void txtParcial3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtParcial3ActionPerformed
@@ -327,16 +346,7 @@ public class TablaOperaciones extends javax.swing.JFrame {
     }//GEN-LAST:event_txtParcial3ActionPerformed
 
     private void txtResultadosperiodo3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultadosperiodo3ActionPerformed
-        // TODO add your handling code here:
-        clsDominio Tercerperiodo = new clsDominio();
-        Double Dato1=Double.parseDouble(txtLab3.getText());
-        Double dato2=Double.parseDouble(txtParcial3.getText());
-        
-        Double res=Tercerperiodo.PrimerPar1(Dato1, dato2);
-        txtResultadosperiodo3.setText(res.toString());
-        
-        
-        
+        // TODO add your handling code here:   
     }//GEN-LAST:event_txtResultadosperiodo3ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
@@ -344,32 +354,44 @@ public class TablaOperaciones extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void txtResultadosperiodo2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultadosperiodo2ActionPerformed
-        // TODO add your handling code here:
-        clsDominio Segundoperiodo =new clsDominio();
-        Double Dato1=Double.parseDouble(txtLab2.getText());
-        Double Dato2=Double.parseDouble(txtParcial2.getText());
-        
-        Double res=Segundoperiodo.SegundoPer(Dato1, Dato2);
-        
-        
-        txtResultadosperiodo2.setText(res.toString());
-
-        
+        // TODO add your handling code here:     
     }//GEN-LAST:event_txtResultadosperiodo2ActionPerformed
 
     private void txtResultadosdelos3peridosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultadosdelos3peridosActionPerformed
         // TODO add your handling code here:
         
-        Double Resultado1=Double.parseDouble(txtResultadosPeriodo1.getText());
-        Double Resultado2=Double.parseDouble(txtResultadosperiodo2.getText());
-        Double resultado3=Double.parseDouble(txtResultadosperiodo3.getText());
+        Double Resultado1=Double.parseDouble(txtResultado1.getText());
+        Double Resultado2=Double.parseDouble(txtResultados2.getText());
+        Double resultado3=Double.parseDouble(txtResultado3.getText());
         
         Double res=(Resultado1 + Resultado2 + resultado3)/3;
-        txtResultadosdelos3peridos.setText(res.toString());
+        txtResultadogeneral.setText(res.toString());
         
         
         
     }//GEN-LAST:event_txtResultadosdelos3peridosActionPerformed
+
+    private void btnTercerperiodoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTercerperiodoActionPerformed
+        // TODO add your handling code here:
+          clsDominio Tercerperiodo = new clsDominio();
+        Double Dato1=Double.parseDouble(txtlab2.getText());
+        Double dato2=Double.parseDouble(txtparcial2.getText());
+        
+        Double res=Tercerperiodo.PrimerPar1(Dato1, dato2);
+        txtResultados2.setText(res.toString());
+       
+    }//GEN-LAST:event_btnTercerperiodoActionPerformed
+
+    private void btnResultadodelosTresPeriodosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResultadodelosTresPeriodosActionPerformed
+        // TODO add your handling code here:
+          Double Resultado1=Double.parseDouble(txtResultado1.getText());
+        Double Resultado2=Double.parseDouble(txtResultados2.getText());
+        Double resultado3=Double.parseDouble(txtResultado3.getText());
+        
+        Double res=(Resultado1 + Resultado2 + resultado3)/3;
+        txtResultadogeneral.setText(res.toString());
+        
+    }//GEN-LAST:event_btnResultadodelosTresPeriodosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -411,28 +433,28 @@ public class TablaOperaciones extends javax.swing.JFrame {
     private javax.swing.JButton btnResultadodelosTresPeriodos;
     private javax.swing.JButton btnSegundoperiodo;
     private javax.swing.JButton btnTercerperiodo;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JLabel txtLab1;
     private javax.swing.JTextField txtLab2;
     private javax.swing.JTextField txtLab3;
     private javax.swing.JTextField txtParcial1;
     private javax.swing.JTextField txtParcial2;
     private javax.swing.JTextField txtParcial3;
+    private javax.swing.JLabel txtResultado1;
+    private javax.swing.JLabel txtResultado3;
+    private javax.swing.JLabel txtResultadogeneral;
+    private javax.swing.JLabel txtResultados2;
     private javax.swing.JTextField txtResultadosPeriodo1;
     private javax.swing.JTextField txtResultadosdelos3peridos;
     private javax.swing.JTextField txtResultadosperiodo2;
     private javax.swing.JTextField txtResultadosperiodo3;
+    private javax.swing.JLabel txtlab1;
+    private javax.swing.JLabel txtlab2;
+    private javax.swing.JLabel txtlab3;
+    private javax.swing.JLabel txtparcial1;
+    private javax.swing.JLabel txtparcial2;
+    private javax.swing.JLabel txtparcial3;
     // End of variables declaration//GEN-END:variables
 }
